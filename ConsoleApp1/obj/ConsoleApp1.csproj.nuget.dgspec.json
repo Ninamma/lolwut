@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ninammarai/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj": {}
+  },
+  "projects": {
+    "/Users/ninammarai/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ninammarai/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+        "projectName": "ConsoleApp1",
+        "projectPath": "/Users/ninammarai/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+        "packagesPath": "/Users/ninammarai/.nuget/packages/",
+        "outputPath": "/Users/ninammarai/RiderProjects/ConsoleApp1/ConsoleApp1/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/Users/ninammarai/.dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ninammarai/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Airtable": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
